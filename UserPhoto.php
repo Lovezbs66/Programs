@@ -4,6 +4,7 @@ for($i=1;$i<400;$i++){
 			$md5_string=md5($id);
 			$first_string=substr($md5_string,0,4);
 			$second_string=substr($md5_string,4,4);
+			//just test 
 			// echo "id : ".$id."<br/>";
 			// echo "md5_string : ".$md5_string."<br/>";
 			// echo "first_string : ".$first_string."<br/>";
